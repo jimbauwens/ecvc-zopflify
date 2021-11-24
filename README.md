@@ -1,5 +1,9 @@
 # Zopflify your EU COVID-19 Vaccination Certificate
 
+### Demo
+
+http://bwns.be/jim/ecvc-repackage/
+
 ### What's this?
 
 A small tool that you can use to repackage your European COVID vaccination certificate. 
