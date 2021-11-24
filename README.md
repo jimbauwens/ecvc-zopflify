@@ -1,4 +1,4 @@
-# Zopflify your EU COVID-19 Vaccination Certificate<
+# Zopflify your EU COVID-19 Vaccination Certificate
 
 ### What's this?
 
@@ -7,7 +7,6 @@ You can change the QR error correction factor, which can reduce the size of the 
 Additionally, the packed data is recompressed using <a href="https://github.com/google/zopfli">zopfli</a>, typically yielding
 better compression rates than typical zlib compression (while being backwards compatible with zlib).
 
-<br><br>
 tl;dr: You can make your qr-code smaller (less dense).
 
 ### Where do I get this 'HC1:' data from? Where do I input my QR-Code?
@@ -31,7 +30,7 @@ This proved to be successful, but I wanted to see if I could go further and redu
 I discovered zopfli and thus this application was born :)
 
 
-### What libraries did you use for this?<
+### What libraries did you use for this?
 The excellent QR-code library from Project Nayuki (<a href="https://www.nayuki.io/page/qr-code-generator-library">https://www.nayuki.io/page/qr-code-generator-library</a>), 
 a random base45 decoding library found at <a href="https://github.com/lovasoa/base45-ts">lovasoa/base45-ts</a>,
 pako, a high speed zlib port (<a href="https://github.com/nodeca/pako">nodeca/pako</a>),
