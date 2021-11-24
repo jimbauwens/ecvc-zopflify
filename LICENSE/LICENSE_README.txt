@@ -1,0 +1,3 @@
+The base45 module is copied and modified from lovasoa/base45-ts, which is based on ehn-dcc-development/base45-js, which is forked from dirkx/base45-js 
+All the REPO's include the APACHE 2.0 license as a file, but no copyright headers have been added to the respective files....
+Presumably this is unintentional, so I've added the license headers for this project.
