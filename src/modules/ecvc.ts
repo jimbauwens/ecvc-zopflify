@@ -62,7 +62,8 @@ export class ECVC_Container {
         try {
             const payload = pako.inflate(data);
             return new this(payload);
-        } catch {
+        } catch (e) {
+            console.log(e);
             throw new Error("Invalid input, could not inflate decoded base45 content");
         }
     }
