@@ -51,7 +51,7 @@ namespace app {
 			setTimeout(() => {
 				ecvc_container.toHC1StringAsync({iterations: iters})
 					.then(b => {
-						(getElem("text-output") as HTMLTextAreaElement).value = text;
+						(getElem("text-output") as HTMLTextAreaElement).value = b;
 						redrawQrCode(b, text);
 					})
 					.catch(e => { 
